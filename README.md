@@ -1,9 +1,17 @@
 # Microfronts single-spa
 
-## how to create
- npm i -g create-single-spa
-
-
+## how to create a single spa
+ - npm i -g create-single-spa
+ - # run the command create-single-spa
+      Directory for new project (.) # header
+      Which framework do you want to use?  # angular
+      Project name # mf-header
+  <p>by default when creating an angular project the selector of the app.component.ts is "app-root" and in order not to co-start with the other projects we change the name, preferably the same name as the project.
+  Also rename in main.single-spa.ts in the line 22 "app-root" by the name that is chosen for the app.component.ts
+  </p>
+  ## for more information watch the following video
+  https://www.youtube.com/watch?v=XbNsZSYXBp0
+  
 ## Tareas
 
 - Al iniciar un nuevo mf en angular
